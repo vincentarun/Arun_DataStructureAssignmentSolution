@@ -1,17 +1,17 @@
 package com.greatlearning.ga2.ques2;
 
-	class Node {
+class Node {
 
-		int data;
-		Node left;
-		Node right;
+	int data;
+	Node left;
+	Node right;
 
-		Node(int nodeValue) {
+	Node(int nodeValue) {
 
-			data = nodeValue;
-			left = right = null;
-		}
+		data = nodeValue;
+		left = right = null;
 	}
+}	
 
 	public class SkewedTree {
 
@@ -62,5 +62,4 @@ package com.greatlearning.ga2.ques2;
 			BSTToSkewed(node);
 			rightNodes(headNode);
 		}
-	}
-
+}
